@@ -37,17 +37,23 @@ php artisan tinker
 ```
 factory(App\Task::class, 5)->create()
 ```
-## Login api contents by Postman
+## Rest API GET, POST, PUT with Postman
+
+###### Register User [http://127.0.0.1:8000/api/register]
+
+![register](https://user-images.githubusercontent.com/25128254/65382814-583ae680-dd2e-11e9-9575-e05f75a3f198.png)
+
+###### Login User. [http://127.0.0.1:8000/api/login] Keep track of the access_token received
 
 ![github1](https://user-images.githubusercontent.com/25128254/65382751-62a8b080-dd2d-11e9-9ae8-7ee1a9e8a65a.png)
 
-## Get All tasks for the logged in users configuration
+###### Get All tasks for the logged in users [http://127.0.0.1:8000/api/tasks]
 
 ![github2](https://user-images.githubusercontent.com/25128254/65382778-c4691a80-dd2d-11e9-815b-51034fd7e58a.png)
 
+###### To Edit how the data is to be received in the API end we can edit TaskResources
 
-
-
+Special Thanks to webdevmatrics youtube channel
 
 
 
