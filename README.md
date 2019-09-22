@@ -53,7 +53,12 @@ factory(App\Task::class, 5)->create()
 
 ![store](https://user-images.githubusercontent.com/25128254/65383304-5e809100-dd35-11e9-812c-cacddcc4416a.png)
 
-###### To Edit how the data is to be received in the API end we can edit TaskResources
+###### To Edit a Task we need to provide 'raw' instead of 'form-data' especially for 'PUT' request. Url is similar with the last item defining the id of the task [http://127.0.0.1:8000/api/tasks/1]
+
+![edit](https://user-images.githubusercontent.com/25128254/65383595-7a863180-dd39-11e9-97da-afc65e53cdc7.png)
+
+
+###### To Edit how the data is to be received in the API end we can edit TaskResources. Will be updated
 
 
 
