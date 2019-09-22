@@ -1,6 +1,4 @@
-# motherframework-apilaravelcrud
-MotherFramework series Laravel Rest API Toekn Based Login and CRUD Generation. <br/> 
-Template to be used for future
+![postman-seeklogo com](https://user-images.githubusercontent.com/25128254/65383432-68a38f00-dd37-11e9-96eb-0c36fd7effc2.jpg)
 
 ## Installation
 
