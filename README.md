@@ -62,9 +62,4 @@ factory(App\Task::class, 5)->create()
 
 
 
-Special Thanks to webdevmatrics youtube channel
-
-Link: https://www.youtube.com/watch?v=qQFjykc3ROY
-
-###### Have some works to do still. But rather than following the whole tut its better to work on this <br/>
 
